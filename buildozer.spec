@@ -104,7 +104,7 @@ android.features = android.hardware.usb.host
 android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-android.minapi = 21
+android.minapi = 20
 
 # (int) Android SDK version to use
 android.sdk = 20
