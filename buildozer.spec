@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = KBCA
 
 # (str) Package name
-package.name = myapp
+package.name = main
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,Kivy==2.3.0,kivymd==1.2.0,plyer==2.0.0
+requirements = python3,Kivy==2.3.0,kivymd==1.2.0,plyer==2.0.0,pillow==10.2.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -110,10 +110,10 @@ android.minapi = 21
 android.sdk = 20
 
 # (str) Android NDK version to use
-android.ndk = 25
+android.ndk = 25.2.5
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
-android.ndk_api = 21
+android.ndk_api = 25
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 android.private_storage = True
